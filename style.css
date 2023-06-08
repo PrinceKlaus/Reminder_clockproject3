@@ -302,7 +302,9 @@ h3:hover:after{
 
                  /* ###################################  MOBILE VIEW ######################################## */
 
-@media screen and (min-width:412px) and (max-width:914px){
+                                              /* iPhone XR */
+
+@media screen and (min-width:414px) and (max-width:819px){
     body{
         padding: 0px;
         margin: 0px;
@@ -336,6 +338,13 @@ h3:hover:after{
         background-color: white;
         border-radius: 10px;
         opacity: 1;
+        position: relative;
+        top: 254px;
+    }
+
+    .clockLogo img{
+        position: relative;
+        right: 93px;
     }
     
     
@@ -411,23 +420,21 @@ h3:hover:after{
     
     }
     
-    h3{
-        height: 25px;
-        width: 143px;
+    button{
+        height: 47px;
+        width: 165px;
         font-family: 'Manrope', sans-serif;
         color: white;
         background-image: linear-gradient(To right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
         text-align: center;
         padding: 10px;
         border-radius: 2px;
+        position: relative;
+        top: 448px;
     }
     
-    h3:after{
-        content:'Set Alarm';
-    }
-    
-    h3:hover:after{
-        content:'Party time!';
+    button:hover{
+        background-image: linear-gradient(To left, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
     }
     
     .info p{
@@ -440,7 +447,7 @@ h3:hover:after{
         padding: 10px;
         position: relative;
         left: 171px;
-        bottom: 98px;
+        top: 383px;
     }
     
     
@@ -463,14 +470,14 @@ h3:hover:after{
         background-color: white;
         padding-top: 34px;
         position: relative;
-        top: -86px;
+        top: -687px;
     }
     
     .card5 img{
         height: 318px;
         width: 401px;
         position: relative;
-        bottom: 101px;
+        bottom: 387px;
     }
     
     .smalltimecard{
@@ -482,9 +489,10 @@ h3:hover:after{
         background-color: white;
         border-radius: 8px;
         text-align: left;
-        top: -556px;
+        top: -597px;
         padding-top: 35px;
         padding-left: 34px;
+        position: relative;
     }
     
     #dot1{
@@ -511,12 +519,11 @@ h3:hover:after{
         background-color: white;
         border-radius: 8px;
         text-align: left;
-        top: -556px;
         padding-top: 35px;
         padding-left: 34px;
         opacity: 0.7;
         position: relative;
-        top: -57px;
+        top: -649px;
         z-index: -1;
     }
     
@@ -529,7 +536,7 @@ h3:hover:after{
         background-color: white;
         border-radius: 8px;
         text-align: left;
-        top: -97px;
+        top: -686px;
         padding-top: 35px;
         padding-left: 34px;
         opacity: 0.5;
@@ -578,3 +585,6 @@ h3:hover:after{
         height: 60px;
     }
 } 
+
+
+
