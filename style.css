@@ -196,6 +196,26 @@ h3:hover:after{
     bottom: 8px;
 }
 
+.clck{
+    position: relative;
+    top: 19px;
+    right: 5px;
+}
+
+#hh{
+    position: relative;
+    left: 18px;
+}
+
+#mm{
+    position: relative;
+    left: 18px;
+}
+
+#ss{
+    position: relative;
+    left: 18px;
+}
 
 .smalltimecardb1{
     height: 29px;
@@ -206,12 +226,11 @@ h3:hover:after{
     background-color: white;
     border-radius: 8px;
     text-align: left;
-    top: -556px;
     padding-top: 35px;
     padding-left: 34px;
     opacity: 0.7;
     position: relative;
-    top: -57px;
+    top: -53px;
     z-index: -1;
 }
 
@@ -224,7 +243,7 @@ h3:hover:after{
     background-color: white;
     border-radius: 8px;
     text-align: left;
-    top: -97px;
+    top: -88px;
     padding-top: 35px;
     padding-left: 34px;
     opacity: 0.5;
@@ -304,7 +323,7 @@ h3:hover:after{
 
                                               /* iPhone XR */
 
-@media screen and (min-width:414px) and (max-width:819px){
+@media screen and (min-width:350px) and (max-width:500px){
     body{
         padding: 0px;
         margin: 0px;
@@ -332,19 +351,19 @@ h3:hover:after{
     }
     
      .timecard{
-        width: 400px;
+        width: 345px;
         height: 300px;
         border: 1px solid white;
         background-color: white;
         border-radius: 10px;
         opacity: 1;
         position: relative;
-        top: 254px;
+        top: 264px;
     }
 
     .clockLogo img{
         position: relative;
-        right: 93px;
+        right: 80px;
     }
     
     
@@ -368,10 +387,10 @@ h3:hover:after{
         color: #3D087B;
         background-color: white;
         border-radius: 4px;
-        width: 185px;
+        width: 152px;
         height: 45px;
         position: relative;
-        left: 196px;
+        left: 179px;
         bottom: 24px;
     }
     
@@ -379,10 +398,10 @@ h3:hover:after{
         color: #3D087B;
         background-color: white;
         border-radius: 4px;
-        width: 185px;
+        width: 152px;
         height: 45px;
         position: relative;
-        left: 196px;
+        left: 179px;
         bottom: 24px;
     }
     
@@ -390,10 +409,10 @@ h3:hover:after{
         color: #3D087B;
         background-color: white;
         border-radius: 4px;
-        width: 185px;
+        width: 152px;
         height: 45px;
         position: relative;
-        left: 196px;
+        left: 179px;
         bottom: 24px;
     }
     
@@ -401,10 +420,10 @@ h3:hover:after{
         color: #3D087B;
         background-color: white;
         border-radius: 4px;
-        width: 186px;
+        width: 152px;
         height: 45px;
         position: relative;
-        left: 196px;
+        left: 179px;
         bottom: 24px;
     }
     
@@ -412,17 +431,18 @@ h3:hover:after{
         padding: 20px;
         color: white;
         height: 40px;
-        width: 361px;
+        width: 300px;
         font-size: 20px;
         background-color: #9140B5;
         border-radius: 4px;
         font-family: Bauhaus Hv BT;
-    
+        position: relative;
+        top: 500px;
     }
     
     button{
         height: 47px;
-        width: 165px;
+        width: 114px;
         font-family: 'Manrope', sans-serif;
         color: white;
         background-image: linear-gradient(To right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
@@ -430,7 +450,7 @@ h3:hover:after{
         padding: 10px;
         border-radius: 2px;
         position: relative;
-        top: 448px;
+        top: 499px;
     }
     
     button:hover{
@@ -438,16 +458,16 @@ h3:hover:after{
     }
     
     .info p{
-        height: 75px;
-        width: 208px;
+        height: 81px;
+        width: 207px;
         color: #F25CFE;
         background-color: #9140B5;
         border-radius: 8px;
         text-align: left;
-        padding: 10px;
+        padding: 3px;
         position: relative;
-        left: 171px;
-        top: 383px;
+        left: 125px;
+        top: 432px;
     }
     
     
@@ -471,19 +491,20 @@ h3:hover:after{
         padding-top: 34px;
         position: relative;
         top: -687px;
+        width: 316px;
     }
     
     .card5 img{
         height: 318px;
-        width: 401px;
+        width: 341px;
         position: relative;
-        bottom: 387px;
+        bottom: 408px;
     }
     
     .smalltimecard{
         height: 55px;
         display: flex;
-        width: 358px;
+        width: 322px;
         font-weight: bolder;
         color: #3D087B;
         background-color: white;
@@ -508,12 +529,40 @@ h3:hover:after{
         left: 129px;
         bottom: 8px;
     }
+
+    #hh{
+        position: relative;
+        left: 13px;
+    }
+
+    #mm{
+        position: relative;
+        left: 13px;
+    }
+
+    #ss{
+        position: relative;
+        left: 13px;
+    }
+
+
+
+    /* .pic1{
+        position: absolute;
+        left: 10px;
+    } */
+
+    .clck{
+        position: relative;
+        right: 8px;
+        top: 19px;
+    }
     
     
     .smalltimecardb1{
         height: 29px;
         display: flex;
-        width: 304px;
+        width: 280px;
         font-weight: bolder;
         color: #3D087B;
         background-color: white;
@@ -547,7 +596,7 @@ h3:hover:after{
         text-align: center;
         position: relative;
         bottom: 16px;
-        right: 10px;
+        right: 19px;
     }
     
     .smalltimecard .pic1{
